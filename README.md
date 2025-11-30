@@ -5,9 +5,9 @@ It uses a **TPOT-generated machine learning pipeline** trained on the Cleveland 
 
 ---
 
-**Live Demo on Render:** [Click here]()
+**Live Demo on Render:** [Click here](https://aidi1010-heart-disease-prediction.onrender.com)
 
-> **Note:** If the app is loading slowly on first access, the Render free-tier web server may be starting up. Please be patient—it can take up to 30–60 seconds for the first request to respond.
+> **Note:** If the app is loading slowly on first access, the Render free-tier web server may be starting up. Please be patient; it can take up to 30–60 seconds for the first request to respond.
 
 This is a **Heart Disease Prediction Web Application** built with **Flask**.  
 It uses a **TPOT-generated machine learning pipeline** trained on the Cleveland Heart Disease dataset to predict the likelihood of heart disease based on patient clinical features.
@@ -28,16 +28,20 @@ It uses a **TPOT-generated machine learning pipeline** trained on the Cleveland 
 
 ## **Project Structure**
 
-├─ app.py # Flask application
-├─ files/
-│ ├─ tpot_model.pkl # Pre-trained TPOT model
-│ └─ scaler.pkl # Preprocessing scaler
-├─ templates/
-│ └─ index.html # HTML form and display
-├─ requirements.txt # Python dependencies
-├─ .gitignore # Files/folders to ignore in Git
-└─ README.md # This file
+```bash
 
+Heart_Disease_Prediction/
+│
+├─ app.py                  # Flask application
+├─ files/
+│   ├─ tpot_model.pkl      # Pre-trained TPOT model
+│   └─ scaler.pkl          # Preprocessing scaler
+├─ templates/
+│   └─ index.html          # HTML form and display
+├─ requirements.txt        # Python dependencies
+├─ .gitignore              # Files/folders to ignore in Git
+└─ README.md               # This file
+```
 ---
 
 ## **Installation (Local Setup)**
@@ -143,9 +147,9 @@ http://127.0.0.1:5000/
 
 ## **Notes**
 
-This project is for educational purposes only.
-Do not use this app for real medical diagnosis.
-Use realistic test values based on the Cleveland Heart Disease dataset.
+- This project is for educational purposes only.
+- Do not use this app for real medical diagnosis.
+- Use realistic test values based on the Cleveland Heart Disease dataset.
 
 --- 
 
